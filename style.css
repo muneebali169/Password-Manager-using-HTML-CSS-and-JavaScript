@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.app {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+button {
+    background-color: #d9534f;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ccc;
+}
+
+.input-form {
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.take-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    background-color: #5bc0de;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #ccc;
+}
+
+img {
+  width: 13px; /* Adjust the size as needed */
+  height: 13px; /* Adjust the size as needed */
+  cursor: pointer;
+}
+
+/* Additional styles to make the icons smaller */
+img.title {
+  width: 16px; /* Smaller width */
+  height: 16px; /* Smaller height */
+}
+
+@media screen and (max-width: 480px) {
+  /* Adjust styles for smaller screens here */
+  header{
+    width: 100%;
+  }
+  .app {
+    width: 100%; /* Full width on smaller screens */
+  }
+
+  table {
+    font-size: 14px; /* Smaller font for table on smaller screens */
+  }
+}
